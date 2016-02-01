@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generator_data>
+
+<text_title>
+        
+            <choice>
+                
+                <option condition="yes_has_category">
+                    
+                    <determination field="is_name">
+                        <if equal_to="yes_is_name"><wiki_link><replace with="lemma_label"/></wiki_link>
+                    (†<replace with="person_year_of_death"/>)</if>
+                        <if equal_to="not_a_name"><wiki_link><replace with="lemma_label"/></wiki_link></if></determination>
+                    - 
+                    wirklich nur "<replace with="random_category"/>"?</option>
+                
+                <option condition="yes_has_category"><determination field="is_name">
+                        <if equal_to="yes_is_name">
+                            <wiki_link><replace with="lemma_label"/></wiki_link>
+                            (†<replace with="person_year_of_death"/>)
+                            und der Mythos <replace with="random_category2"/>
+                        </if>
+                        <if equal_to="not_a_name"><wiki_link><replace with="lemma_label"/></wiki_link> -
+                            <choice>
+                                <option>nur ein</option>
+                                <option>ein bloßes</option>
+                                <option>lediglich ein</option>
+                                <option>ein reines</option>
+                            </choice>
+                            <choice>
+                                <option>Hirngespinst</option>
+                                <option>Phantom</option>
+                                <option>Randphänomen</option>
+                                <option>Gedankenkonstrukt</option>
+                                <option>Phantasieprodukt</option>
+                            </choice>
+                            oder 
+                            <choice>
+                                <option>tatsächlich </option>
+                                <option>wirklich</option>
+                                <option>nicht doch</option>
+                            </choice>
+                            
+                            <replace with="random_category2"/>?
+                        </if>
+                    </determination></option>
+                
+                <option condition="yes_has_category">
+                    <determination field="is_name">
+                        <if equal_to="yes_is_name"><wiki_link><replace with="lemma_label"/></wiki_link>
+                            (†<replace with="person_year_of_death"/>)</if>
+                        <if equal_to="not_a_name"><wiki_link><replace with="lemma_label"/></wiki_link></if></determination>
+                    <choice>
+                        <option>vor dem Hintergrund</option>
+                        <option>im Anbetracht</option>
+                        <option>angesichts</option>
+                    </choice>
+                    von "<replace with="random_category"/>"
+                    und "<replace with="random_category2"/>"
+                </option>
+                
+                <option condition="yes_has_category"><determination field="is_name">
+                    <if equal_to="yes_is_name"><wiki_link><replace with="lemma_label"/></wiki_link>
+                        (†<replace with="person_year_of_death"/>)</if>
+                    <if equal_to="not_a_name"><wiki_link><replace with="lemma_label"/></wiki_link></if></determination>
+                    zwischen "<replace with="random_category"/>"
+                    und "<replace with="random_category2"/>"</option>
+                <option condition="yes_is_name">
+                    <wiki_link><replace with="lemma_label"/></wiki_link>
+                    (†<replace with="person_year_of_death"/>)
+                    -
+                    <choice>
+                        <option>ein Leben</option>
+                        <option>eine Biographie</option>
+                        <option>eine Existenz</option>
+                        <option>ein Lebenslauf</option>
+                    </choice>
+                    
+                    <choice>
+                        <option>am Abgrund</option>
+                        <option>geprägt von der Kategorie "<replace with="random_category"/>"</option>
+                        <option>im Mittelalter</option>
+                        <option>im historischen Kontext</option>
+                    </choice>
+                
+                </option>
+                
+                <option condition="yes_is_name">
+                    <wiki_link><replace with="lemma_label"/></wiki_link>
+                    (†<replace with="person_year_of_death"/>) und
+                    <determination field="person_gender">
+                        <if equal_to="male">seine</if>
+                        <if equal_to="female">ihre</if>
+                    </determination>
+                    <choice>
+                        <option>Zeit</option>
+                        <option>Welt</option>
+                        <option>Lebenswelt</option>
+                        <option>Umwelt</option>
+                    </choice></option>
+                
+                <option condition="yes_has_category">
+                    <determination field="is_name">
+                        <if equal_to="yes_is_name"><wiki_link><replace with="lemma_label"/></wiki_link>
+                            (†<replace with="person_year_of_death"/>)</if>
+                        <if equal_to="not_a_name"><wiki_link><replace with="lemma_label"/></wiki_link></if></determination>
+                    in
+                    Relation zum
+                    Emergenz- und Resonanzraum
+                    "<replace with="random_category2"/>"</option>
+                
+                <option condition="yes_is_name"><wiki_link><replace with="lemma_label"/></wiki_link>
+                    (†<replace with="person_year_of_death"/>)
+                als
+                <choice>
+                    <option>Beispiel</option>
+                    <option>Blaupause</option>
+                    <option>Paradefall</option>
+                    <option>Glücksfall</option>
+                    <option>Prüfstein</option>
+                </choice>
+                
+                <choice>
+                    <option>der Netzwerkforschung</option>
+                    <option>der Personengeschichte</option>
+                    <option>der prosopographischen Methode</option>
+                    <option>für das Funktionieren der biographisch orientierten Wissenschaft</option>
+                </choice>
+           </option>
+                
+              <option><determination field="is_name">
+                  <if equal_to="yes_is_name"><wiki_link><replace with="lemma_label"/></wiki_link>
+                      (†<replace with="person_year_of_death"/>)</if>
+                  <if equal_to="not_a_name"><replace with="keyword"/></if></determination> im 
+        
+        <choice>
+            <option>Kontext</option>
+            <option>Fokus</option>
+            <option>Blickpunkt</option>
+        </choice>
+    <choice>
+        <option>neuerer</option>
+        <option>jüngerer</option>
+        <option>jüngster</option>
+        <option>neuester</option>
+    </choice>
+        
+        <choice>
+            <option>soziologischer</option>
+            <option>theoriegeleiteter</option>
+            <option>geistesgeschichtlicher</option>
+            <option>ideengeschichtlicher</option>
+        </choice>     
+        
+        <choice>
+            <option>Forschungsergebnisse</option>
+            <option>Forschungen</option>
+            <option>Forschungsinteressen</option>
+            <option>Forschungsperspektiven</option>
+        </choice></option>
+    
+              <option><determination field="is_name">
+                  <if equal_to="yes_is_name"><wiki_link><replace with="lemma_label"/></wiki_link>
+                      (†<replace with="person_year_of_death"/>)</if>
+                  <if equal_to="not_a_name"><replace with="keyword"/></if></determination> -
+    Versuch einer Annäherung an die historische Wahrheit</option>
+
+                <option condition="not_a_name"><determination field="has_category">
+                    <if equal_to="yes_has_category"><wiki_link><replace with="lemma_label"/></wiki_link></if>
+                    <if equal_to="has_no_category"><replace with="keyword"/></if>
+                </determination> und kein Ende</option>
+
+                <option condition="not_a_name"><determination field="has_category">
+                    <if equal_to="yes_has_category"><wiki_link><replace with="lemma_label"/></wiki_link></if>
+                    <if equal_to="has_no_category"><replace with="keyword"/></if>
+                </determination> 
+        -
+    <choice>
+        <option>Leben</option>
+        <option>Gesellschaften</option>
+        <option>Gestalten</option>
+        <option>Prägungen</option>
+        <option>Formierungen</option>
+    </choice>
+    
+    in Zeiten
+    
+    <choice>
+        <option>des Umbruchs</option>
+        <option>der Erneuerung</option>
+        <option>des Wandels</option>
+        <option>des Niedergangs</option>
+        <option>des Abstiegs</option>
+        <option>der Umwälzung</option>
+        <option>des Aufstiegs</option>
+    </choice></option>
+
+                <option condition="not_a_name"><determination field="has_category">
+                    <if equal_to="yes_has_category"><wiki_link><replace with="lemma_label"/></wiki_link></if>
+                    <if equal_to="has_no_category"><replace with="keyword"/></if>
+                </determination> 
+    an der 
+        <choice>
+            <option>Wende</option>
+            <option>Grenze</option>
+            <option>Zäsur</option>
+            <option>Schwelle</option>
+        </choice>
+        
+        
+        <choice>
+            <option>zur
+            deutschen Geschichte</option>
+            <option>zu einer neuen Zeit</option>
+            <option>zu einer anderen Epoche</option>
+            <option>zu tiefgreifendem Wandel</option>
+            <option>zur Entwurzelung</option>
+        </choice></option>
+
+                <option><determination field="is_name">
+                    <if equal_to="yes_is_name"><wiki_link><replace with="lemma_label"/></wiki_link>
+                        (†<replace with="person_year_of_death"/>)</if>
+                    <if equal_to="not_a_name"><replace with="keyword"/></if></determination>
+    
+    im
+        <choice>
+            <option>europäischen</option>
+            <option>welthistorischen</option>
+            <option>globalgeschichtlichen</option>
+            <option>transnationalen</option>
+            <option>überzeitlichen</option>
+            <option>mediävistischen</option>
+            <option>historischen</option>
+            <option>analytischen</option>
+        </choice>
+        
+        <choice>
+            <option>Kontext</option>
+            <option>Zusammenhang</option>
+            <option>Bezug</option>
+        </choice></option>
+    
+                <option condition="not_a_name"><determination field="has_category">
+                    <if equal_to="yes_has_category"><wiki_link><replace with="lemma_label"/></wiki_link></if>
+                    <if equal_to="has_no_category"><replace with="keyword"/></if>
+                </determination>
+        
+       als
+        
+        <choice>
+            <option>Teil</option>
+            <option>Chance</option>
+            <option>Netzwerk</option>
+            <option>Option</option>
+            <option>Neuansatz</option>
+            <option>Fortsetzung</option>
+            <option>Zäsur</option>
+            <option>Narrativ</option>
+            <option>Phänomen</option>
+            <option>Gegenentwurf</option>
+            <option>Zentrum</option>
+        </choice>
+        
+        <choice>
+            <option>der Geschichte</option>
+            <option>des Eurozentrismus</option>
+            <option>des Kapitalismus</option>
+            <option>des Frühliberalismus</option>
+            <option>
+                <choice>
+                    <option>mehrstufiger</option>
+                    <option>multikausaler</option>
+                    <option>monokausaler</option>
+                    <option>gerichteter</option>
+                    <option>emergenter</option>
+                    <option>teleologischer</option>
+                    <option>minutiöser</option>
+                    <option>paränetischer</option>
+                    <option>panegyrischer</option>
+                </choice>        
+                
+                <choice>
+                    <option>Ebenen</option>
+                    <option>Verflechtungen</option>
+                    <option>Erklärungsmodelle</option>
+                    <option>Vorstellungen</option>
+                    <option>Vorstellungswelten</option>
+                    <option>Utopien</option>
+                    <option>Strukturen</option>
+                </choice></option>
+        </choice></option>
+    
+                <option condition="not_a_name"><determination field="has_category">
+                    <if equal_to="yes_has_category"><wiki_link><replace with="lemma_label"/></wiki_link></if>
+                    <if equal_to="has_no_category"><replace with="keyword"/></if>
+                </determination> -
+               ein
+          <choice>
+            <option>Reizwort</option>
+            <option>Schlagwort</option>
+            <option>Zentralbegriff</option>
+        </choice>
+        
+        <choice>
+            <option>ohne Randschärfe</option>
+            <option>mit Nebenwirkungen</option>
+            <option>in der Geschichte</option>
+        </choice></option>
+    
+    </choice>
+
+</text_title>
+    
+    
+
+<main_text>
+    
+    <choice name="introductory_sentence">
+        
+        <option condition="yes_has_category">Wenn man über <replace with="random_category2"/>
+            nachdenkt,
+            fällt einem
+            <choice>
+                <option>früher oder später</option>
+                <option>völlig zurecht</option>
+                <option>fragwürdigerweise</option>
+                <option>mit Sicherheit</option>
+                <option>vielleicht</option>
+                <option>manchmal</option>
+                <option>unwillkürlich</option>
+                <option>selbstverständlich</option>
+                <option> - ohne dass man sich dafür schämen müsste - </option>
+                <option> - gerade im Hinblick  auf "<replace with="random_category"/>" - </option>
+            </choice>
+            <replace with="lemma_label"/> ein</option>
+        
+        <option condition="yes_has_category"><replace with="random_category2"/>
+            - damit beginnen 
+            <choice>
+                <option>auch heute</option>
+                <option>völlig zurecht</option>
+                <option>fragwürdigerweise</option>
+            </choice>
+            die meisten Geschichten 
+            über <replace with="lemma_label"/></option>
+        
+        <option condition="not_a_name">
+            Der Begriff "<replace with="keyword"/>" ist seit
+            einigen Jahren auch in der deutschen Geschichtswissenschaft als Forschungskonzept eingeführt worden</option>
+        
+        <option condition="yes_is_name">Das Handeln einer Einzelperson
+            (wie <replace with="lemma_label"/>)
+        vor dem Hintergrund einer formativen Subjektkonstitution
+        zählt zu den elementarsten Problem der Geschichtswissenschaft</option>
+        
+        <option condition="yes_is_name"><determination field="person_gender">
+            <if equal_to="male">Obwohl <replace with="lemma_label"/>
+                <choice>
+                    <option>ein Mann war</option>
+                    <option>gemeinhin als Mann gilt</option>
+                    <option>männliche Attribute besaß</option>
+                    <option>sich männlich positionierte</option>
+                </choice></if>
+            <if equal_to="female">Weil
+                <replace with="lemma_label"/>
+                <choice>
+                    <option>eine Frau war</option>
+                    <option>sich als Frau in einer Männerwelt behaupten musste</option>
+                    <option>als Frau gegen männlichen Widerstand kämpfte</option>
+                    <option>ihre feminine Seite nie verleugnete</option>
+                </choice></if></determination>, eignet
+            <determination field="person_gender">
+                <if equal_to="male">er</if>
+                <if equal_to="female">sie</if></determination>
+            sich für einen geschlechtergeschichtlichen Ansatz</option>
+        
+        <option condition="yes_is_name">Obwohl heute 
+            <choice>
+                <option>bekannt</option>
+                <option>anerkannt</option>
+                <option>Konsens darüber besteht</option>
+            </choice>
+            ist, 
+        dass Geschichte nicht von "großen Männern" gemacht wird, kann
+        die
+            <choice>
+                <option>Verfolgung</option>
+                <option>Analyse</option>
+                <option>Aufbereitung</option>
+                <option>Inblicknahme</option>
+            </choice>
+            einer historischen Einzelpersönlichkeit wie <replace with="lemma_label"/>
+            <choice>
+                <option>fruchtbar</option>
+                <option>gewinnbringend</option>
+                <option>hilfreich</option>
+                <option>erkenntnisreich</option>
+            </choice>
+            für die
+            <choice>
+                <option>Geschichtswissenschaft</option>
+                <option>Forschung</option>
+                <option>Erfahrbarmachung von Geschichte</option>
+            </choice> sein</option>
+        
+        <option>Während 
+            <determination field="is_name"><if equal_to="yes_is_name"></if><if equal_to="not_a_name">"</if></determination><replace with="keyword"/><determination field="is_name"><if equal_to="yes_is_name"></if><if equal_to="not_a_name">"</if></determination>
+            <choice>
+                <option>lange Zeit</option>
+                <option>über weite Strecken der Geschichte</option>
+                <option>lange Jahre</option>
+                <option>viele Jahre</option>
+            </choice>
+           
+            <choice>
+                <option>im populären Mittelalterbild</option>
+                <option>in populärwissenschaftlichen Darstellungen</option>
+                <option>in gängigen Handbüchern</option>
+                <option>in fachlichen Diskussionen</option>
+                <option>in der öffentlichen Wahrnehmung</option>
+            </choice>
+           
+            keine
+            <choice>
+                <option>bedeutende</option>
+                <option>prominente</option>
+                <option>tragende</option>
+                <option>prägende</option>
+            </choice>
+            Rolle  spielte, wird
+            
+            <determination field="is_name">
+                <if equal_to="yes_is_name">die Person</if>
+                <if equal_to="not_a_name">das Phänomen</if>
+            </determination>
+        
+            <choice>
+                <option>jetzt</option>
+                <option>seit Kurzem</option>
+                <option>in jüngster Zeit</option>
+                <option>seit einigen Jahren</option>
+            </choice>
+            
+            <choice>
+                <option>vor dem Hintergrund</option>
+                <option>angesichts</option>
+                <option>hinsichtlich</option>
+            </choice>
+        
+        
+            <choice>
+                <option>jüngster</option>
+                <option>neuester</option>
+                <option>interkultureller</option>
+                <option>politischer</option>
+                <option>weltpolitischer</option>
+                <option>sozialer</option>
+                <option>digitaler</option>
+            </choice>
+        
+            <choice>
+                <option>Probleme</option>
+                <option>Kriege</option>
+                <option>Terroranschläge</option>
+                <option>Entwicklungen</option>
+                <option>Krisen</option>
+                <option>Szenarien</option>
+                <option>Auseinandersetzungen</option>
+                <option>Konflikte</option>
+            </choice>
+        
+            <choice>
+                <option>wieder aufgegriffen</option>
+                <option>neu bewertet</option>
+                <option>wiederum thematisiert</option>
+                <option>von einer größeren Öffentlichkeit beachtet</option>
+                <option>zum Gegenstand öffentlicher Debatten</option>
+            </choice></option>
+        
+        <option>Für die 
+        <choice>
+            <option>Entwicklung</option>
+            <option>Evolution</option>
+            <option>Ausdifferenzierung</option>
+            <option>Formierung</option>
+            <option>Formation</option>
+            <option>Herausbildung</option>
+        </choice>
+        
+        <choice>
+            <option>der folgenden Ereignisse</option>
+            <option>der Geschichtswissenschaft</option>
+            <option>sozialer Prozesse</option>
+            <option>historischer Selbstreflexionfähigkeit</option>
+            <option>späterer Territorialisierungsprozesse</option>
+            <option>epochenimanenter Spezifika</option>
+            <option>wirkmächtiger Geschichtserzählungen</option>
+            <option>klassischer Meistererzählungen</option>
+        </choice>
+        war
+        
+            <determination field="is_name">
+                <if equal_to="yes_is_name"><replace with="lemma_label"/></if>
+                <if equal_to="not_a_name">das Phänomen "<replace with="keyword"/>"</if>
+            </determination>
+        von 
+        <choice>
+            <option>äußerst</option>
+            <option>kaum zu überschätzender</option>
+            <option>geradezu</option>
+            <option/>
+        </choice>
+        
+        <choice>
+            <option>besonderer</option>
+            <option>zentraler</option>
+            <option>einschlägiger</option>
+            <option>eminenter</option>
+        </choice>
+        
+        <choice>
+            <option>Bedeutung</option>
+            <option>Wichtigkeit</option>
+            <option>Relevanz</option>
+        </choice></option>
+        
+        <option><determination field="is_name"><if equal_to="yes_is_name"></if><if equal_to="not_a_name">"</if></determination><replace with="keyword"/><determination field="is_name"><if equal_to="yes_is_name"></if><if equal_to="not_a_name">"</if></determination> war 
+            eine<determination field="is_name"><if equal_to="yes_is_name"></if><if equal_to="not_a_name">s</if></determination> der
+            <choice>
+                <option>bedeutendsten</option>
+                <option>zentralen</option>
+                <option>prominentesten</option>
+            </choice>
+            
+            <determination field="is_name">
+                <if equal_to="yes_is_name"><choice>
+                    <option>Personen</option>
+                    <option>Figuren</option>
+                    <option>Gestalten</option>
+                </choice></if>
+                <if equal_to="not_a_name"><choice>
+                    <option>Elemente</option>
+                    <option>Charakteristika</option>
+                    <option>Merkmale</option>
+                    <option>Spezifika</option>
+                </choice></if>
+            </determination>
+            
+            <choice>
+                <option>des Mittelalters</option>
+                <option>der Vormoderne</option>
+                <option>vergangener Jahrhunderte</option>
+                <option>der 
+                    <choice>
+                        <option>Menschheits</option>
+                        <option>Kultur</option>
+                        <option>Wirtschafts</option>
+                        <option>Sozial</option>
+                        <option>Verfassungs</option>
+                    </choice>geschichte</option>
+            </choice></option>
+        
+        <option><choice>
+            <option>Der Schematismus</option>
+            <option>Die Persistenz</option>
+            <option>Die Symbiose</option>
+            <option>Die Wechselwirkung</option>
+            <option>Die Synthese</option>
+        </choice>
+            
+            <choice>
+                <option>der Motive</option>
+                <option>der Vorbereitungsmaßnahmen</option>
+                <option>der Auswirkungen</option>
+                <option>des Beginns</option>
+                <option>der Unmmittelbarkeit</option>
+            </choice>
+            
+            <choice>
+                <option>der Hypothese</option>
+                <option>des Kondensationspunkts</option>
+                <option>der Vergleichsparameter</option>
+                <option>der Etablierung</option>
+                <option>des Konsenses</option>
+            </choice>
+            
+            <choice>
+                <option>führt
+                    <choice>
+                        <option>unweigerlich</option>
+                        <option>unmittelbar</option>
+                        <option>sofort</option>
+                        <option>unwillkürlich</option>
+                        <option>freilich</option>
+                    </choice>  zu</option>
+                <option>hängt zusammen mit</option>
+                <option>ist völlig unabhängig von</option>
+                <option>ist klar abzugrenzen von</option>
+                <option>ist lebensweltlich verbunden mit</option>
+                <option>wird induziert von</option>
+                <option>hat manigfaltige Verbindungen mit</option>
+                <option>ist nur denkbar mit</option>
+            </choice>
+            
+            <choice>
+                <option>der Variation</option>
+                <option>den Genres</option>
+                <option>der Herausforderung</option>
+                <option>der Subjektkonstitution</option>
+                <option>dem Resultat</option>
+            </choice>
+            
+            <choice>
+                <option>der Aporie</option>
+                <option>der Kontingenz</option>
+                <option>der Binnenstruktur</option>
+                <option>der Textur</option>
+                <option>der Positionsbestimmung</option>
+            </choice></option>
+        
+        <option condition="not_a_name">"<replace with="keyword"/>"
+        ist
+        
+            <choice>
+                <option>in jüngerer Zeit</option>
+                <option>in den letzten Jahren</option>
+                <option>in den vergangenen Jahrzehnten</option>
+            </choice>
+        
+        zu einem
+        
+            <choice>
+                <option>etablierten</option>
+                <option>viel diskutierten</option>
+                <option>unüberehbaren</option>
+            </choice>
+            
+            <choice>
+                <option>Schwerpunkt</option>
+                <option>Mittelpunkt</option>
+                <option>Kulminationspunkt</option>
+            </choice>
+            
+            <choice>
+                <option>mediävistischer</option>
+                <option>historischer</option>
+                <option>kritischer</option>
+            </choice>
+        
+            <choice>
+                <option>Forschung</option>
+                <option>Wissenschaft</option>
+                <option>Tätigkeit</option>
+            </choice>
+            
+            <choice>
+                <option>geworden</option>
+                <option>avanciert</option>
+            </choice></option>
+        
+        <option condition="not_a_name">"<replace with="keyword"/>"
+        gilt
+        
+        <choice>
+            <option>nach wie vor</option>
+            <option>seit jeher</option>
+            <option>seit langem</option>
+            <option>noch immer</option>
+            <option>gemeinhin</option>
+        </choice>
+        
+        als
+        
+        <choice>
+            <option>Paradebeispiel</option>
+            <option>klassischer Fall</option>
+            <option>Musterexemplar</option>
+        </choice>
+        
+        eines
+        
+        <choice>
+            <option>entscheidenden</option>
+            <option>einschneidenden</option>
+            <option>ereignissgeschichtlichen</option>
+            <option>strukturellen</option>
+            <option><choice>
+                <option>makro</option>
+                <option>mikro</option>
+                <option>kultur</option>
+            </choice>strukturellen</option>
+            <option>historischen</option>
+            <option>neuralgischen</option>
+            <option>verfassungsgeschichtlichen</option>
+            <option>rechtshistorischen</option>
+            <option>kommunikativen</option>
+            <option>soziokulturellen</option>
+            <option>identitätsstiftenden</option>
+            <option>verkannten</option>
+        </choice>
+        
+        <choice>
+            <option><choice>
+              <option>Wende</option>
+              <option>Hoch</option>
+              <option>Tief</option>
+              <option>Kristallations</option>
+              </choice>punkts</option>
+            <option>Katalysators</option>
+            <option>Quantensprungs</option>
+        </choice>
+        
+        im Verlauf
+        
+        <choice>
+            <option>der Geschichte</option>
+            <option>der mittelalterlichen Geschichte</option>
+            <option>der Epoche zwischen 500 und 1500</option>
+            <option>der 
+                <choice>
+                    <option>Menschheits</option>
+                    <option>Kultur</option>
+                    <option>Sozial</option>
+                    <option>Wirtschafts</option>
+                    <option>Geistes</option>
+                    <option>Vorkriegs</option>
+                </choice>geschichte</option>
+        </choice></option>
+        
+        <option condition="not_a_name">"<replace with="keyword"/>" stellt
+            ein
+            <choice>
+                <option>zentrales</option>
+                <option>kontroverses</option>
+                <option>geradezu klassisches</option>
+                <option>noch immer nicht befriedigend bearbeitetes</option>
+                <option>interessantes</option>
+                <option>spannendes</option>
+                <option>vielgestaltiges</option>
+                <option>schillerendes</option>
+                <option>umstrittenes</option>
+            </choice>
+            
+            <choice>
+                <option>Problem</option>
+                <option>Forschungsfeld</option>
+                <option>Thema</option>
+                <option>novum</option>
+                <option>Element</option>
+                <option>Spefizikum</option>
+                <option>Charateristikum</option>
+                <option>Rätsel</option>
+            </choice>
+            <choice>
+                <option>der mittelalterlichen Geschichte</option>
+                <option>der modernen Geschichtsforschung</option>
+                <option>unseres Faches</option>
+            </choice>
+            
+            dar</option></choice>.
+    
+    <choice name="second_sentence"><option>Dabei ist
+        
+         <choice>
+         <option>die Konstellation</option>
+         <option>der Kontext</option>
+         <option>das historische Umfeld</option>
+         <option>die Quellenlage</option>
+         <option>die Überlieferungssituation</option>
+         <option>die Paradigmenmatrix</option>
+         <option>das Problemtableau</option>
+        </choice>
+        
+        <choice>
+            <option>hinsichtlich</option>
+            <option>im Hinblick auf</option>
+            <option>im Angesicht von</option>
+            <option>in der Betrachtung von</option>
+        </choice>
+        
+        <determination field="is_name">
+            <if equal_to="yes_is_name">der Person <replace with="keyword"/></if>
+            <if equal_to="not_a_name">"<replace with="keyword"/>"</if>
+        </determination>
+        
+        ein
+       <choice>
+            <option>Indikator</option>
+            <option>Prüfstein</option>
+            <option>Kriterium</option>
+            <option>Faktor</option>
+        </choice>
+       
+       für die
+        <choice>
+            <option>Bewertung</option>
+            <option>Erforschung</option>
+            <option>Intepretation</option>
+            <option>Einordnung</option>
+            <option>Evaluation</option>
+        </choice>
+        
+        <choice>
+            <option>sozialer Ausdifferenzierungsprozesse</option>
+            <option>medialer Kommunikation</option>
+            <option>pragmatischer Selbst- und Fremdzeugnisse</option>
+            <option>theoriegeleiteter Fragestellungen</option>
+            <option>globalgeschichtlicher Ansätze</option>
+            <option>soziologischer Modellbildung</option>
+        </choice></option>
+       
+       <option>Der umfassende Charakter der Grundüberlegungen wird
+           durch die thematische Streuung der in der Lehrveranstaltung angesprochenen Themen deutlich werden.
+           Dabei greifen allgemeine Überlegungen und Einzelfallstudien ineinander</option>
+        
+        <option>Dabei werden neben der politischen Geschichte 
+            Grundzüge von Politik, Verfassung, Gesellschaft,
+            Wirtschaft, Kirche, Landwirtschaft,
+            Religion und Kultur im Mittelpunkt stehen</option>
+        
+        <option><choice>
+            <option>Das Thema</option>
+            <option>Die Thematik</option>
+            <option>Das Problem</option>
+            <option>Die Problematik</option>
+            <option>Das Themenfeld</option>
+        </choice>
+            
+            eignet sich
+            <choice>
+                <option>daher</option>
+                <option>deshalb</option>
+                <option>in diesem Sinne</option>
+            </choice>
+            
+            <choice>
+                <option>gut</option>
+                <option>vorzüglich</option>
+                <option>besonders gut</option>
+                <option>sehr gut</option>
+                <option>hervorragend</option>
+            </choice>
+            
+            für eine
+            <choice>
+                <option>historische</option>
+                <option>problemorientierte</option>
+                <option>vertiefende</option>
+                <option>einführende</option>
+            </choice>
+            Lehrveranstaltung</option>
+    
+        <option condition="not_a_name">Während
+            
+            <choice>
+                <option>die ältere Forschung</option>
+                <option>die Geschichtswissenschaft des 19. Jahrhunderts</option>
+                <option>die deutschnationale Geschichtsschreibung</option>
+                <option>die langezeit herrschende Lehre</option>
+            </choice>
+            in 
+            "<replace with="keyword"/>"
+        
+            <choice>
+                <option>vornehmlich</option>
+                <option>hauptsächlich</option>
+                <option>insbesondere</option>
+                <option>vor allem</option>
+            </choice>
+            
+            <choice>
+                <option>einen maßgeblichen Entwicklungsschritt auf dem Weg zur Bildung
+                der deutschen Nation</option>
+                <option>einen Streit konkurrierender politischer Konzepte</option>
+                <option>die Vorgeschichte eines späteren Epochenwandels</option>
+                <option>eine Phase gefährlicher Anarchie</option>
+                <option>den Beginn der deutschen Geschichte</option>
+                <option>das Wirken ultramontaner Kräfte</option>
+                <option>einen Sieg des Partikularismus</option>
+            </choice>
+        
+            sah,
+            zeichnet
+            die
+            
+            <choice>
+                <option>jüngere</option>
+                <option>neuere</option>
+                <option>moderne</option>
+            </choice>
+            
+            <choice>
+                <option>Forschung</option>
+                <option>Geschichtswissenschaft</option>
+                <option>Mediävistik</option>
+            </choice>
+            
+            ein
+            
+            <choice>
+                <option>nuancierteres</option>
+                <option>differenzierteres</option>
+                <option>graduell anderes</option>
+            </choice>
+        
+        Bild</option>
+        
+        <option>Zur Vermeidung
+        
+        <choice>
+            <option>unnötiger</option>
+            <option>unwissenschaftlicher</option>
+            <option>gefährlicher</option>
+            <option>epistemologisch fragwürdiger</option>
+            <option>nicht länger hinnehmbarer</option>
+            <option>anachronistischer</option>
+            <option>methodisch unhaltbarer</option>
+        </choice>
+            
+        <choice>
+            <option>Komplexitätsreduktion</option>
+            <option>Reduktionismuspraxis</option>
+            <option>Faktenblindheit</option>
+            <option>thematischer Einengung</option>
+        </choice>
+            
+            muss hierbei
+            
+            <choice>
+                <option>der ganze Kontext</option>
+                <option>das ganze Umfeld</option>
+                <option>das ganze Spektrum</option>
+                <option>die ganze Bandbreite</option>
+            </choice>
+            
+            <determination field="is_name">
+                <if equal_to="yes_is_name"><choice>
+                    <option>des Lebenslaufs</option>
+                    <option>des Lebens</option>
+                    <option>der Biographie</option>
+                    <option>des persönlichen Umfelds</option>
+                    <option>der charakterlichen Prägungen</option>
+                </choice></if>
+                <if equal_to="not_a_name"><choice>
+                <option>des Themas</option>
+                <option>des Problems</option>
+                <option>der Problematik</option>
+            </choice></if>
+            </determination>
+            
+            unter Berücksichtigung
+            
+            <choice>
+                <option>sämtlicher</option>
+                <option>aller</option>
+                <option>älterer</option>
+                <option>schwer zugänglicher</option>
+                <option>jüngerer</option>
+                <option>die Zeit zwischen
+                <choice>
+                    <option>1000 vor Christus</option>
+                    <option>900 vor Christus</option>
+                    <option>800 vor Christus</option>
+                    <option>700 vor Christus</option>
+                    <option>600 vor Christus</option>
+                    <option>500 vor Christus</option>
+                    <option>400 vor Christus</option>
+                    <option>300 vor Christus</option>
+                    <option>200 vor Christus</option>
+                    <option>100</option>
+                    <option>200</option>
+                    <option>300</option>
+                    <option>400</option>
+                    <option>500</option>
+                    <option>600</option>
+                    <option>700</option>
+                    <option>800</option>
+                    <option>900</option>
+                </choice>
+                    und
+                    <choice>
+                        <option>1000</option>
+                        <option>1100</option>
+                        <option>1200</option>
+                        <option>1300</option>
+                        <option>1400</option>
+                        <option>1500</option>
+                        <option>1600</option>
+                        <option>1700</option>
+                        <option>1800</option>
+                    </choice>
+                betreffender</option>
+            </choice>
+            
+            <choice>
+                <option>Zeugnisse</option>
+                <option>Quellen</option>
+                <option>Überlieferungsträger</option>
+                <option>Kenntnisse</option>
+                <option>Gedächtnisoperationen</option>
+                <option>Fakten</option>
+            </choice>
+            
+            <choice>
+                <option>ausgelotet</option>
+                <option>begutachtet</option>
+                <option>kontextualisiert</option>
+                <option>aufgearbeitet</option>
+            </choice> werden</option>
+    
+        <option><determination field="is_name">
+            <if equal_to="yes_is_name"><choice>
+                <option>Zu dieser Person</option>
+                <option>Über diesen Menschen</option>
+                <option>Zu 
+                    <determination field="person_gender">
+                        <if equal_to="male">seinem</if>
+                        <if equal_to="female">ihrem</if>
+                    </determination>
+                    Leben</option>
+                <option>Hinsichtlich der Besonderheiten   
+                   <option>des persönlichen Umfelds</option>
+                   <option>der charakterlichen Prägungen</option>
+                </option>
+                
+            </choice></if>
+            <if equal_to="not_a_name"><choice>
+                <option>Hierzu</option>
+                <option>Zu diesem Thema</option>
+                <option>Für dieses Gebiet</option>
+            </choice></if>
+        </determination> liegt ein 
+            
+            <choice>
+                <option>reiches Quellenmaterial</option>
+                <option>reichhaltiger Quellenfundus</option>
+                <option>umfangreiches Quellenkorpus</option>
+            </choice>
+            
+            <choice>
+                <option>in Schrift-, Bild- und 
+                    Sachzeugnissen</option>
+                <option>verschiedener Gattungen</option>
+                <option>aus unterschiedlichen Zeiten</option>
+            </choice>
+            
+            
+             vor, was 
+            
+            <choice>
+                <option>einen differenzierten Zugang zum</option>
+                <option>eine intensive Auseinandersetzung mit dem</option>
+                <option>einen faszinierenden Einblick in das</option>
+            </choice>
+            
+            <choice>
+                <option>Thema</option>
+                <option>Problem</option>
+                <option>Forschungsfeld</option>
+            </choice>
+            
+            <choice>
+                <option>ermöglicht</option>
+                <option>möglich macht</option>
+                <option>erlaubt</option>
+            </choice></option></choice>.
+   
+    <choice name="programme_sentence">
+        
+        <option condition="yes_has_category">
+            <choice>
+                <option>Dabei</option>
+                <option>Hiebei</option>
+                <option>Diesbezüglich</option>
+            </choice>
+            <choice>
+                <option>ist</option>
+                <option>gilt es</option>
+            </choice>
+            <choice>
+                <option>insbesondere</option>
+                <option>hauptsächlich</option>
+                <option>vornehmlich</option>
+            </choice>
+            zu 
+            <choice>
+                <option>prüfen</option>
+                <option>hinterfragen</option>
+                <option>entscheiden</option>
+            </choice>, ob
+            
+            <choice>
+                <option>das Label</option>
+                <option>das Etikett</option>
+                <option>die Kategorie</option>
+            </choice>
+            
+            "<replace with="random_category"/>" auf <replace with="lemma_label"/>
+            wirklich zutrifft</option>
+        
+        <option condition="yes_has_category"><choice>
+            <option>Insbesondere</option>
+            <option>Besonders</option>
+        </choice>
+            <choice>
+                <option>weil</option>
+                <option>da</option>
+            </choice>
+            die
+            
+            <choice>
+                <option>problematische</option>
+                <option>irrige</option>
+                <option>überholte</option>
+                <option>veraltete</option>
+                <option>falsche Assoziationen weckende</option>
+            </choice>
+            
+            Kategorie
+            "<replace with="random_category"/>"
+            
+            <choice>
+                <option>nach wie vor</option>
+                <option>noch immer</option>
+                <option>stets aufs Neue</option>
+            </choice>
+            
+            <choice>
+                <option>zu finden ist</option>
+                <option>in Handbüchern steht</option>
+                <option>in die Diskussion eingeworfen wird</option>
+            </choice>,
+            
+            wird
+            
+            <determination field="kind_of_seminar">
+                <if equal_to="Proseminar">von Proseminaristen</if>
+                <if equal_to="Übung">auch von Studienanfängern</if>
+                <if equal_to="Hauptseminar">von fortgeschrittenen Studierenden</if>
+                <if equal_to="Vorlesung">von einer Vorlesung</if>
+            </determination>
+            
+            eine
+            <choice>
+                <option>umfassende</option>
+                <option>fundierte</option>
+                <option>wissenschaftliche</option>
+            </choice>
+            
+            <choice>
+                <option>kritische</option>
+                <option>problematisierende</option>
+                <option>einordnende</option>
+            </choice>
+            
+            <choice>
+                <option>Analyse</option>
+                <option>Auseinandersetzung</option>
+                <option>Betrachtung</option>
+            </choice>
+            
+            <choice>
+                <option>gefordert</option>
+                <option>gewünscht</option>
+                <option>zu erbringen sein</option>
+            </choice></option>
+        
+        <option condition="yes_has_category">Der
+            <choice>
+                <option>historischen</option>
+                <option>kritischen</option>
+                <option>eingehenden</option>
+            </choice>
+            
+            <choice>
+                <option>Analyse</option>
+                <option>Infragestellung</option>
+                <option>Problematisierung</option>
+            </choice>
+            
+            <choice>
+                <option>der Kategorie</option>
+                <option>des Emblems</option>
+                <option>des Stigmas</option>
+                <option>des Idealtypus</option>
+                <option>der Vorstellung</option>
+                <option>des Gedankenmodells</option>
+                <option>des Paradigmas</option>
+            </choice>
+            
+            "<replace with="random_category"/>" 
+            wird dabei
+            <choice>
+                <option>weiter Raum eingeräumt</option>
+                <option>viel Zeit gewidmet</option>
+                <option>das Augemerk gelten</option>
+            </choice></option>
+        
+        <option>Den zentralen Aspekten will die Veranstaltung auf Basis der zahlreichen Quellen im Detail nachgehen</option>
+        
+        <option>Dabei werden sowohl einzelne Akteure, historische Phänomene, Objekte als auch Orte in den Fokus genommen</option>
+        
+        <option>Die Veranstaltung versucht, 
+            das Phänomen 
+            in zeitlicher und räumlicher
+            Differenzierung zu fassen und in
+            seinen sozialen, politischen
+            und geistesgeschichtlichen Kontext einzuordnen</option>
+        
+        <option>In
+        
+        <choice>
+            <option>diese</option>
+            <option>unsere</option>
+        </choice><replace with="r_or_m"/>
+        
+            <replace with="kind_of_seminar"/>
+        
+        sollen
+        
+        <choice>
+            <option>insbesondere</option>
+            <option>vornehmlich</option>
+            <option>vor allem</option>
+        </choice>
+        
+        <choice>
+            <option>soziale</option>
+            <option>kulturelle</option>
+            <option><choice>
+                <option>sozio</option>
+                <option>trans</option>
+                <option>ökö</option>
+                <option>mikro</option>
+            </choice><choice>
+                <option>kulturelle</option>
+                <option>prozessuale</option>
+                <option>theoretische</option>
+                <option>formative</option>
+            </choice></option>
+            <option>ereignisgeschichtliche</option>
+            <option>transregionale</option>
+            <option>pagane</option>
+            
+        </choice>
+        
+            <choice>
+                <option>Aspekte</option>
+                <option>Prozesse</option>
+                <option>Eigenarten</option>
+                <option>Komplexe</option>
+                <option>Konfigurationen</option>
+                <option>Strukturiertheiten</option>
+                <option>Charateristika</option>
+                <option>Diskursfelder</option>
+                <option>Debatten</option>
+                <option>Netzwerke</option>
+            </choice>
+           
+           <choice>
+               <option>betrachtet werden</option>
+               <option>im Mittelpunkt stehen</option>
+               <option>eingehend besprochen werden</option>
+               <option>in den Fokus gerückt werden</option>
+           </choice></option>
+        
+        <option>Ziel
+            
+            <choice>
+                <option>diese</option>
+                <option>unsere</option>
+            </choice><replace with="r_or_s"/>
+            
+            <replace with="kind_of_seminar"/><replace with="genitive_ending"/>
+           
+           ist
+           eine
+           
+            <choice>
+                <option>fundierte</option>
+                <option>umfassende</option>
+                <option>eingehende</option>
+            </choice>
+            
+            <choice>
+                <option>Analyse</option>
+                <option>Diskussion</option>
+                <option>Betrachtung</option>
+            </choice>
+            
+            <choice>
+                <option>neuerer</option>
+                <option>neu erschlossener</option>
+                <option>noch zu erschließender</option>
+                <option>diskursanalytischer</option>
+                <option>theoretischer</option>
+            </choice>
+           
+            <choice>
+                <option>Problemfelder</option>
+                <option>Perspektiven</option>
+                <option>Tendenzen</option>
+                <option>Praktiken</option>
+                <option>Fragestellungen</option>
+            </choice></option>
+        
+        <option>D<replace with="article_after_d"/>
+            
+            <replace with="kind_of_seminar"/>
+            
+            will
+            
+            <choice>
+                <option>fundiert</option>
+                <option>umfassend</option>
+                <option>gezielt</option>
+                <option>auf dem neuesten Stand der Forschung</option>
+            </choice>
+            
+            <choice>
+                <option>allgemeine</option>
+                <option>spezielle</option>
+                <option>grundlegende</option>
+                <option>elementare</option>
+                <option>besondere</option>
+            </choice>
+            
+            <choice>
+                <option>Fassetten</option>
+                <option>Anküpfungspunkte</option>
+                <option>Spektren</option>
+                <option>Grundzüge</option>
+                <option>Ebenen</option>
+            </choice>
+            
+            
+            <determination field="is_name">
+                <if equal_to="yes_is_name"><choice>
+                    <option>des Menschen</option>
+                    <option>des Lebenslaufs</option>
+                    <option>der Biographie</option>
+                    <option>des persönlichen Umfelds</option>
+                    <option>der charakterlichen Prägungen</option>
+                </choice></if>
+                <if equal_to="not_a_name"><choice>
+                <option>des Themas</option>
+                <option>der Thematik</option>
+                <option>des Problems</option>
+                <option>der Problematik</option>
+                <option>des Feldes</option>
+            </choice></if>
+            </determination>
+            
+            <choice>
+                <option>aufgreifen</option>
+                <option>vertiefen</option>
+                <option>durchsprechen</option>
+                <option>beleuchten</option>
+                <option>aufzeigen</option>
+            </choice></option></choice>.
+    
+    <determination field="kind_of_seminar" >
+        <if equal_to="Proseminar">
+            <choice><option>
+                <choice>
+                    <option>Die Veranstaltung</option>
+                    <option>Das Proseminar</option>
+                    <option>Das Seminar</option>
+                </choice>
+                
+                <choice>
+                    <option>wird</option>
+                    <option>soll</option>
+                </choice>
+                
+                <choice>
+                    <option>dabei</option>
+                    <option>zugleich</option>
+                    <option>zudem</option>
+                </choice>
+                
+                <choice>
+                    <option>einen Einblick</option>
+                    <option>Einblicke</option>
+                    <option>einen vertieften Einblick</option>
+                </choice>
+                
+                in
+                <choice>
+                    <option>Methoden</option>
+                    <option>das methodische Insturmentarium</option>
+                    <option>wichtige Hilfsmittel</option>
+                </choice>
+                
+                und
+                
+                Forschungs<choice>
+                    <option>tendenzen</option>
+                    <option>probleme</option>
+                    <option>fragen</option>
+                </choice>
+                
+                <choice>
+                    <option>der mittelalterlichen Geschichte</option>
+                    <option>der Mediävistik</option>
+                    <option>unseres Faches</option>
+                </choice>
+                
+                
+                vermitteln</option>
+                
+                <option><choice>
+                    <option>Am Beispiel</option>
+                    <option>Anhand</option>
+                </choice>
+                    
+                    dieses
+                    
+                    <choice>
+                        <option>weitgefassten</option>
+                        <option>engen</option>
+                        <option>klar umgrenzten</option>
+                        <option>traditionellen</option>
+                        <option>innovativen</option>
+                    </choice>
+                    
+                    <choice>
+                        <option>Themenfeldes</option>
+                        <option>Themenspektrums</option>
+                        <option>Problemfelds</option>
+                        <option>Themengebiets</option>
+                    </choice>
+                    
+                    <choice>
+                        <option>soll</option>
+                        <option>will</option>
+                        <option>wird</option>
+                    </choice>
+                     
+                    <choice>
+                        <option>das Proseminar</option>
+                        <option>die Veranstaltung</option>
+                        <option>die Lehrveranstaltung</option>
+                    </choice>
+                     
+                     in die
+                     
+                    <choice>
+                        <option>Grundlagen</option>
+                        <option>Fundamente</option>
+                        <option>Basics</option>
+                        <option>rudimenta</option>
+                        <option>unumstößlichen und auf immer fortbestehenden Grundfesten</option>
+                    </choice>
+                     
+                       der Beschäftigung mit 
+                    der Mittelalterlichen Geschichte einführen und einen Einblick in das Fach geben</option>
+                
+                <option>Am Beispiel dieses für die 
+                    
+                    <choice>
+                        <option>Verfassungsgeschichte</option>
+                        <option>Wirtschaftsgeschichte</option>
+                        <option>Kulturgeschichte</option>
+                        <option>Netzwerkforschung</option>
+                        <option>Prosopographie</option>
+                        <option>historische Methodenlehre</option>
+                        <option>Religionsgeschichte</option>
+                        <option>Theologie</option>
+                        <option>Militärgeschichte</option>
+                    </choice>
+                    
+                    des
+                    <choice>
+                        <option>spätmittelalterlichen</option>
+                        <option>frühmittelalterlichen</option>
+                        <option>hochmittelalterlichen</option>
+                        <option>süddeutschen</option>
+                        <option>europäischen</option>
+                        <option>globalen</option>
+                    </choice>
+                    <choice>
+                        <option>Reiches</option>
+                        <option>Königtums</option>
+                        <option>Lehenswesens</option>
+                        <option>Feudalismus</option>
+                        <option>Machtgefälles</option>
+                    </choice>
+                    
+                    
+                    hochinteressanten Themenfeldes will das
+                    Proseminar eine Einführung 
+                    in die Methoden des Faches geben</option>
+                
+                <option><choice>
+                    <option>Die Studierenden</option>
+                    <option>Die Teilnehmer</option>
+                    <option>Die TeilnehmerInnen</option>
+                    <option>Die Teilnehmerinnen und Teilnehmer</option>
+                    <option>Die Teilnehmer und Teilnehmerinnen</option>
+                    <option>Die Teilnehmenden</option>
+                    <option>Die Teilnehmer_innen</option>
+                    <option>Die Teilnehmer*innen</option>
+                    <option>Die Teilnehmer/innen</option>
+                </choice>
+                    
+                    <choice>
+                        <option>sollen</option>
+                        <option>werden</option>
+                    </choice>
+                    
+                    <choice>
+                        <option>mit zentralen Problemen und Methoden der mittelalterlichen Geschichtsforschung vetraut gemacht werden</option>
+                        <option>in zentrale Probleme und Methoden der mittelalterlichen Geschichtsforschung eingeführt werden</option>
+                    </choice></option>
+                
+                <option><choice>
+                    <option>Daneben</option>
+                    <option>Zugleich</option>
+                    <option>Darüberhinaus</option>
+                </choice>
+                    
+                    versteht sich die Veranstaltung
+                    
+                    als
+                    <choice>
+                        <option>Einführung in</option>
+                        <option>Heranführung an</option>
+                    </choice>
+                    
+                    <choice>
+                        <option>zentrale</option>
+                        <option>grundlegende</option>
+                        <option>elementare</option>
+                    </choice>
+                    
+                    <choice>
+                        <option>Probleme</option>
+                        <option>Fragen</option>
+                        <option>Gegenstände</option>
+                        <option>Inhalte</option>
+                    </choice>
+                    
+                    und
+                    
+                    <choice>
+                        <option>Methoden</option>
+                        <option>Hilfsmittel</option>
+                        <option>Herangehensweisen</option>
+                    </choice>
+                    
+                    <choice>
+                        <option>der Mittelalterforschung</option>
+                        <option>des Faches</option>
+                        <option>der Disziplin</option>
+                        <option>der mittelalterlichen Geschichte</option>
+                    </choice></option></choice>.
+          </if>
+        <if equal_to="Übung Hauptseminar Vorlesung">
+           <choice>
+                
+                <option>Im 
+                    
+                    <choice>
+                        <option>Vordergrund</option>
+                        <option>Mittelpunkt</option>
+                        <option>Fokus</option>
+                    </choice>
+                    
+                <choice>
+                    <option>wird</option>
+                    <option>soll</option>
+                </choice>
+                
+                <choice>
+                    <option>dabei</option>
+                    <option>gerade</option>
+                    <option>auch</option>
+                </choice>
+                
+                unter Berücksichtigung
+                
+                <choice>
+                   
+                    <option><choice>
+                        <option>jüngerer</option>
+                        <option>neuerer</option>
+                    </choice> Forschungsergebnisse</option>
+                    
+                   <option>der 
+                       
+                       <choice>
+                           <option>problematischen</option>
+                           <option>einzigartigen</option>
+                           <option>exzellenten</option>
+                           <option>komplexen</option>
+                           <option>komplizierten</option>
+                       </choice>
+                       
+                       <choice>
+                           <option>Überlieferungssituation</option>
+                           <option>Quellenlage</option>
+                       </choice></option>
+                </choice>
+                    
+                    <choice>
+                        <option>die Betrachtung</option>
+                        <option>die Diskussion</option>
+                        <option>die Beleuchtung</option>
+                        <option>die Analyse</option>
+                    </choice>
+                    
+                    <choice>
+                        <option>sozialer</option>
+                        <option>kultureller</option>
+                        <option>wirtschaftlicher</option>
+                        <option>regionaler</option>
+                        <option>theologischer</option>
+                        <option>philosophischer</option>
+                        <option>administrativer</option>
+                        <option>pragmatischer</option>
+                        <option>personaler</option>
+                    </choice>
+                    
+                    <choice>
+                        <option>Bindungen</option>
+                        <option>Netzwerke</option>
+                        <option>Selbsterhaltungstendenzen</option>
+                        <option>Beharrungskräfte</option>
+                        <option>Reformbewegungen</option>
+                        <option>Entwicklungstendenzen</option>
+                        <option>Memorialräume</option>
+                        <option>Zentren</option>
+                        <option>Migrationsbewegungen</option>
+                        <option>Diffusionsbewegungen</option>
+                        <option>Formungsprozesse</option>
+                    </choice>
+                
+                stehen</option>
+                
+                
+               <option><choice>
+                   <option>Im Lauf des Semesters</option>
+                   <option>Zur Vertiefung</option>
+                   <option>Als idealer Einstieg</option>
+                   <option>Zur Verdeutlichung</option>
+                   <option>Zum besseren Verständnis</option>
+                   <option>Zur Einordnung</option>
+               </choice>
+                    
+                    sollen
+                    
+                   <choice>
+                       <option>zudem</option>
+                       <option>darüber hinaus</option>
+                       <option>hierzu</option>
+                   </choice>
+                   
+                   <choice>
+                       <option>lateinische</option>
+                       <option>mittelalterliche</option>
+                       <option>mittellateinische</option>
+                       <option>mittelhochdeutsche</option>
+                       <option>griechische</option>
+                       <option>interessante</option>
+                   </choice>
+                   
+                   <choice>
+                       <option>Originalquellen</option>
+                       <option>Schriftzeugnisse</option>
+                       <option>Urkunden</option>
+                       <option>Heiligenviten</option>
+                       <option>Gesetzestexte</option>
+                       <option>Annalen</option>
+                       <option>Chroniken</option>
+                   </choice>
+                   
+                   <choice>
+                       <option>erörtert</option>
+                       <option>gelesen</option>
+                       <option>besprochen</option>
+                       <option>analysiert</option>
+                       <option>diskutiert</option>
+                       <option>vorgestellt</option>
+                       <option>angeschaut</option>
+                       <option>übersetzt</option>
+                       <option>kommentiert</option>
+                       <option>angesprochen</option>
+                   </choice>
+                   werden</option>
+                
+               <option><choice>
+                   <option>Hinterfragt</option>
+                   <option>Kritisch betrachtet</option>
+                   <option>Differenziert betrachtet</option>
+                   <option>Neu eingeordnet</option>
+                   <option>Anders bewertet</option>
+                   <option>Überdacht</option>
+               </choice>
+                   
+                   werden
+                   
+                   <choice>
+                       <option>muss</option>
+                       <option>soll</option>
+                   </choice>
+                   
+                   <choice>
+                       <option>hierbei</option>
+                       <option>diesbezüglich</option>
+                       <option>hinsichtlich dessen</option>
+                   </choice>
+                   
+                   <choice>
+                       <option>inbesondere</option>
+                       <option>im Speziellen</option>
+                       <option>im Allgemeinen</option>
+                   </choice>
+                   
+                   die 
+                   
+                   <choice>
+                       <option>zu starke</option>
+                       <option>ausschließliche</option>
+                       <option>problematische</option>
+                       <option>methodisch nicht abgesicherte</option>
+                       <option>falsche</option>
+                       <option>unplausible</option>
+                   </choice>
+                   
+                   <choice>
+                       <option>Annahme</option>
+                       <option>These</option>
+                       <option>Theorie</option>
+                       <option>Modellbildung</option>
+                       <option>Erzählung</option>
+                       <option>Rekonstruktion</option>
+                   </choice>
+                   
+                   <choice>
+                       <option>lang andauernder</option>
+                       <option>wirkmächtiger</option>
+                       <option>großflächiger</option>
+                       <option>weiträumiger</option>
+                       <option>planmäßiger</option>
+                       <option>zielgerichteter</option>
+                   </choice>
+                   
+                   <choice>
+                       <option>Aktionen</option>
+                       <option>Koordinationsinstanzen</option>
+                       <option>Kontrollmechanismen</option>
+                       <option>Normierungsverfahren</option>
+                       <option>Kriege</option>
+                       <option>Identitätstransformationen</option>
+                   </choice></option></choice>.
+            
+        </if>
+    </determination>
+        
+</main_text>
+
+</generator_data>
