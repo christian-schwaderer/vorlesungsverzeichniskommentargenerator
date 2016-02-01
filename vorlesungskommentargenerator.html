@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Vorlesungsverzeichniskommentar-Generator</title>
+        <link rel="stylesheet" type="text/css" href="kom_gen.css"/>
+        <script type="text/javascript">
+           var i = 0;
+           var svg_rects = document.getElementsByTagName('rect');
+           
+            function display_rect(number)
+            {
+             if(number <= svg_rects.length)
+             { svg_rects[number].style.display = 'inline'; }
+            }
+           
+           function hide_rect(number)
+            {
+             if(number >= 0)
+             {  svg_rects[number].style.display = 'none'; }
+            }
+           
+            function progress_animation ()
+            {
+             document.getElementById('svg_progress').style.display = 'inline';
+             setTimeout(function () {
+             display_rect(i);
+             i++;
+             if (i < svg_rects.length)
+              { progress_animation(); }
+             else if (i == svg_rects.length)
+              {
+               i--;
+               de_progress_animation();
+              }
+             }, 150)
+            } 
+           
+           function de_progress_animation ()
+            {
+            setTimeout(function () {
+             hide_rect(i);
+               i--;
+             if (i >= 0)
+              { de_progress_animation(); }
+             else
+              {
+               i = 0;
+               progress_animation();
+              }
+             }, 150)
+            }
+           
+           
+        </script>
+    </head>
+    <body>
+        
+        <h1>Der
+		<span class="margin">Vorlesungsverzeichniskommentar-</span>
+		Generator</h1>
+        <h2>für mittelalterliche Geschichte</h2>
+        
+        <p>Keine Lust, jedes Semester etwas Neues zu schreiben? Einfach ein Schlagwort eingeben
+		und alles weitere den Generator machen lassen!
+            Noch nie gingen Vorlesungsverzeichniskommentare so schnell.</p>
+        
+        <form id="genator_form" action="kommentar_generator.php" method="get" accept-charset="UTF-8" onsubmit="progress_animation()">
+            <!--  -->
+            <div>
+                <p>Schlagwort:<br/><input name="keyword" id="keyword" autofocus="keyword"/></p>
+                
+                <p>Veranstaltungsart:
+                <br/>
+                    <input type="radio" name="kind_of_seminar" value="Übung" checked="checked"/> Übung | 
+                    <input type="radio" name="kind_of_seminar" value="Proseminar"/> Proseminar |
+                    <input type="radio" name="kind_of_seminar" value="Hauptseminar"/> Hauptseminar |
+                    <input type="radio" name="kind_of_seminar" value="Vorlesung"/> Vorlesung
+                </p>
+                
+                <p>
+                    <input type="submit" value="Generieren!" class="button"/>
+                    
+                    <svg width="200" height="20" style="display:none;" id="svg_progress">
+                        <rect x="20" width="20" height="20" style="fill:blue;display:none;" />
+                        <rect x="50" width="20" height="20" style="fill:blue;display:none;" />
+                        <rect x="80" width="20" height="20" style="fill:blue;display:none;" />
+                        <rect x="110" width="20" height="20" style="fill:blue;display:none;" />
+                    </svg>
+                    
+                </p>
+                
+            </div>
+            
+        </form>
+        <!--OUTPUTHERE-->
+        
+		<hr/>
+		<p class="small">(Erstellt von <a href="mailto:christian.schwaderer@uni-tuebingen.de">Christian Schwaderer</a> unter Nutzung von 
+		Wikipedia/<a href="http://de.dbpedia.org/">DBpedia</a>-de-Daten.)</p>
+		
+    </body>
+</html>
